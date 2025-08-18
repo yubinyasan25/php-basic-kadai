@@ -23,9 +23,9 @@
                 </td>
             </tr>
             <tr>
-                <td>所属</td>
+                <td>所属部署</td>
                 <td>
-                    <select name="category">
+                    <select name="department">
                         <option value="開発部">開発部</option>
                         <option value="営業部">営業部</option>
                         <option value="人事部">人事部</option>

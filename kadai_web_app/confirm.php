@@ -2,7 +2,7 @@
 // POSTリクエストから入力データを取得
 $name = $_POST['employee_name'];
 $age = $_POST['employee_age'];
-$category = $_POST['category'];
+$department = $_POST['department'];
 ?>
 
 <!DOCTYPE html>
@@ -32,7 +32,7 @@ $category = $_POST['category'];
         </tr>
         <tr>
             <td>所属部署</td>
-            <td><?php echo $category; ?></td>
+            <td><?php echo $department; ?></td>
         </tr>
         
     </table>
